@@ -4,11 +4,9 @@ import 'package:comic_book/app/domain/repositories/issue_repository.dart';
 import 'package:dio/dio.dart';
 import 'package:flutter_meedu/flutter_meedu.dart';
 
-const String apiKey = "ca774c6ed30f32d93a7aaac2eeb8d2205ac70872";
+const String apiKey = "API_KEY";
 void injectDependencies() {
-  Dio _dio = Dio(
-      //BaseOptions(baseUrl: 'https://comicvine.gamespot.com/api/issues/'),
-      );
+  Dio _dio = Dio();
 
   Get.i.lazyPut<Dio>(() => _dio);
 
