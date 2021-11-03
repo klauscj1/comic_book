@@ -4,13 +4,23 @@ An example for a consume API
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This project is a Flutter web application.
 
-A few resources to get you started if this is your first Flutter project:
+Current points:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+● Show a list of the last comics
+● Show a detail of the selected comic
+● Markup the UI accordingly to the wireframe presented
+● Responsive design
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Tools:
+
+- [API: Comic vine](https://comicvine.gamespot.com/api/documentation)
+
+### For test
+
+- For test in localhost (web) [Stackoverflow: disable web security](https://stackoverflow.com/questions/65630743/how-to-solve-flutter-web-api-cors-error-only-with-dart-code/66879350#66879350)
+
+### Captures
+
+![Screenshot](https://github.com/klauscj1/comic_book/blob/main/assets/captures/gridview_web.png)
