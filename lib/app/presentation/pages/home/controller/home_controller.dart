@@ -5,7 +5,7 @@ import 'package:flutter_meedu/flutter_meedu.dart';
 class HomeController extends SimpleNotifier {
   final IssueRepository _issueRepository = Get.i.find<IssueRepository>();
   HomeController() {
-    _init();
+    init();
   }
   //vars
   List<Issue> _issues = [];
@@ -43,7 +43,7 @@ class HomeController extends SimpleNotifier {
 
   //methods
 
-  void _init() async {
+  void init() async {
     _issueRepository.getIssues().then((value) {
       _fetching = false;
       _issues = value;

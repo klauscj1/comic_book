@@ -1,6 +1,6 @@
 # comic_book
 
-A new Flutter project.
+An example for a consume API
 
 ## Getting Started
 

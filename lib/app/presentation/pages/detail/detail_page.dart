@@ -1,4 +1,3 @@
-import 'package:comic_book/app/domain/models/issue_model.dart';
 import 'package:comic_book/app/presentation/pages/detail/controller/detail_controller.dart';
 import 'package:comic_book/app/presentation/pages/detail/widgets/charaters_gridview_widget.dart';
 import 'package:comic_book/app/presentation/pages/detail/widgets/concepts_gridview_widget.dart';
@@ -28,7 +27,6 @@ class DetailPage extends StatelessWidget {
         final size = MediaQuery.of(context).size;
         return LayoutBuilder(
           builder: (context, constrains) {
-            print("${constrains.maxWidth}, ${constrains.maxHeight}");
             return Scaffold(
               backgroundColor: Colors.grey[100],
               body: constrains.maxWidth < 680

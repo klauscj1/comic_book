@@ -1,6 +1,6 @@
 import 'package:comic_book/app/domain/models/issue_model.dart';
 import 'package:comic_book/app/domain/utils/date_to_string.dart';
-import 'package:comic_book/app/presentation/pages/detail/detail_page.dart';
+
 import 'package:comic_book/app/presentation/pages/home/home_page.dart';
 import 'package:comic_book/app/presentation/routes/routes.dart';
 import 'package:flutter/material.dart';
