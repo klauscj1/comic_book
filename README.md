@@ -1,21 +1,25 @@
-# comic_book
+# Comic Book
 
-An example for a consume API
+An example web applications on Flutter
 
-## Getting Started
+## About this project
 
-This project is a Flutter web application.
+This project consume data from API, use a state management and responsive desing.
 
-Current points:
+#####Current points:
 
-● Show a list of the last comics
-● Show a detail of the selected comic
-● Markup the UI accordingly to the wireframe presented
-● Responsive design
+- Show a list of the last comics
+- Show a detail of the selected comic
+- Markup the UI accordingly to the wireframe presented
+- Responsive design
 
 Tools:
 
 - [API: Comic vine](https://comicvine.gamespot.com/api/documentation)
+
+- [State management: Flutter meedu](https://flutter.meedu.app/docs/5.x.x/intro)
+
+- [Http package: Dio](https://pub.dev/packages/dio)
 
 ### For test
 
