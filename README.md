@@ -23,7 +23,7 @@ Tools:
 
 ### Captures
 
-##### Web Dridview
+##### Web Gridview
 
 ![Screenshot](https://github.com/klauscj1/comic_book/blob/main/assets/captures/gridview_web.png)
 
@@ -31,7 +31,7 @@ Tools:
 
 ![Screenshot](https://github.com/klauscj1/comic_book/blob/main/assets/captures/listview_web.png)
 
-##### mobile Dridview
+##### mobile Gridview
 
 ![Screenshot](https://github.com/klauscj1/comic_book/blob/main/assets/captures/gridview_mobile.png)
 
