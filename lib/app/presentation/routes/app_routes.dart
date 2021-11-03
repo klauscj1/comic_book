@@ -5,4 +5,5 @@ import 'package:flutter/material.dart';
 
 Map<String, Widget Function(BuildContext)> routes = {
   Routes.home: (_) => const HomePage(),
+  Routes.detail: (_) => const DetailPage(),
 };

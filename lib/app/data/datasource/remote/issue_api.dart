@@ -51,9 +51,7 @@ class IssueAPI {
           'format': 'json',
         },
       );
-
       IssueResponse issueResponse = IssueResponse.fromJson(response.data);
-      print(issueResponse.toJson());
       return issueResponse;
     } on DioError catch (e) {
       print(" aqui-> $e");
@@ -62,6 +60,29 @@ class IssueAPI {
     } on Exception catch (e) {
       print(" aqui2-> $e");
       return null;
+    }
+  }
+
+  Future<String> getCharacterImage(String url) async {
+    try {
+      final response = await _dio.get(
+        url,
+        queryParameters: {
+          'api_key': apiKey,
+          'format': 'json',
+        },
+      );
+
+      final data = response.data['results'];
+
+      return data['image']['icon_url'];
+    } on DioError catch (e) {
+      print(" aqui-> $e");
+      print(json.decode(e.response.toString()));
+      return "";
+    } on Exception catch (e) {
+      print(" aqui2-> $e");
+      return "";
     }
   }
 }

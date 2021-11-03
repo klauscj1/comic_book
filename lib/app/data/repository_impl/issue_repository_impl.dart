@@ -13,4 +13,8 @@ class IssueRepositoryImp extends IssueRepository {
   @override
   Future<IssueResponse?> getIssue({required String detailUrl}) =>
       _api.getIssue(detailUrl);
+
+  @override
+  Future<String> getCharacterImage({required String detailUrl}) =>
+      _api.getCharacterImage(detailUrl);
 }

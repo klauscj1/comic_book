@@ -15,15 +15,12 @@ class IssueCard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final size = MediaQuery.of(context).size;
     final typeView = homeProvider.read.typeView;
     return InkWell(
       onTap: () {
-        Navigator.push(
-          context,
-          MaterialPageRoute(
-            builder: (_) => DetailPage(issue: issue),
-          ),
-        );
+        homeProvider.read.selectedIssue = issue;
+        Navigator.pushNamed(context, Routes.detail);
       },
       child: typeView
           ? Column(
@@ -53,8 +50,8 @@ class IssueCard extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.start,
                 children: [
                   SizedBox(
-                    height: 400,
-                    width: 200,
+                    height: size.height * .5,
+                    width: size.width * .4,
                     child: FadeInImage.assetNetwork(
                       placeholder: 'assets/images/loading_image.gif',
                       image: issue.image!,

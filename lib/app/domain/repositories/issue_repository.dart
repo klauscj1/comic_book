@@ -4,4 +4,5 @@ import 'package:comic_book/app/domain/models/responses/issue_response.dart';
 abstract class IssueRepository {
   Future<List<Issue>> getIssues();
   Future<IssueResponse?> getIssue({required String detailUrl});
+  Future<String> getCharacterImage({required String detailUrl});
 }
