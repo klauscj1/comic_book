@@ -13,6 +13,13 @@ This project consume data from API, use a state management and responsive desing
 - Markup the UI accordingly to the wireframe presented
 - Responsive design
 
+#####Code features:
+
+- Clean architecture
+- Repository pattern
+- Responsive desing with media query
+- State management
+
 Tools:
 
 - [API: Comic vine](https://comicvine.gamespot.com/api/documentation)
@@ -24,6 +31,8 @@ Tools:
 ### For test
 
 - For test in localhost (web) [Stackoverflow: disable web security](https://stackoverflow.com/questions/65630743/how-to-solve-flutter-web-api-cors-error-only-with-dart-code/66879350#66879350)
+
+- Config your API_KEY, in lib/dependency_injector.dart include your API_KEY in apiKey const.
 
 ### Captures
 
