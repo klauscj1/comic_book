@@ -6,14 +6,14 @@ An example web applications on Flutter
 
 This project consume data from API, use a state management and responsive desing.
 
-#####Current points:
+##### Current points:
 
 - Show a list of the last comics
 - Show a detail of the selected comic
 - Markup the UI accordingly to the wireframe presented
 - Responsive design
 
-#####Code features:
+##### Code features:
 
 - Clean architecture
 - Repository pattern
